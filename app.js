@@ -190,9 +190,9 @@ var seattleCenter = {
          
     };
     Alki.render();
-    
 
-     
+
+   
 
 
 
