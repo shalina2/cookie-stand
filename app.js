@@ -122,7 +122,8 @@ function handleChange(event) {
   renderFooter();
 }
 
-
+// locationForm.addEventListener('submit', handleForm);
+// salesForm.addEventListener('change', handleChangeData);
 
 new Store('Pike Place', 22, 65, 6.3);
 new Store('Seatac', 3, 24, 1.2);
@@ -135,3 +136,5 @@ renderStores();
 renderFooter();
 
 console.log(Store.allLocations);
+locationForm.addEventListener('submit', handleForm);
+salesForm.addEventListener('change', handleChangeData);
