@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Salmon cookie</title>
-  <link href="style.css" />
-</head>
-
-<body>
-  <ul id="stuff">
-    <li>Item a</li>
-    <li>Item b</li>
-    <li>Item c</li>
-  </ul>
-
-  <script>
+  <head>
+    <title>Class 08</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
     
-    var stuffList = document.getElementById("stuff");
-    
-    var newLi = document.createElement('li');
-    
-    newLi.textContent = "New List Item!";
-    
-    stuffList.appendChild(newLi);
-    
-    newStuff.classList.add('bald');
-  </script>
+  </head>
+  <body>
+    <h1>pat cookies </h1>
+    <table id="location"></table>
 
-</body>
+    <form id="loactionForm">
+        <fieldset>
+            <legend> Add a store</legend>
 
+            <label for="Name">location: </label>
+            <input type="text" name="location">
+
+            <label for="max cust">max cust </label>
+            <input type="Integer" name="max cust">
+
+            <label for="min cust">min cust </label>
+            <input type="Integer" name="min cust">
+
+            <button>new loactionForm</button>
+
+        </fieldset>
+
+    </form>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
