@@ -1,3 +1,20 @@
-background:{
-    background-image:url()
+section {
+    margin: 2em 1em;
+}
+
+
+label {
+    display: block;
+
+}
+
+label input {
+    display: block;
+}
+input {
+    width: 3em
+}
+
+display {
+    background-color: brown;
 }
