@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Class 08</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    
+  </head>
+  <body>
+    <h1>pat cookies </h1>
+    <table id="location"></table>
 
-<head>
-  <title>Salmon cookie</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+    <form id="loactionForm">
+        <fieldset>
+            <legend> Add a store</legend>
 
-<body>
-  <ul id="stuff">
-    <li>Item a</li>
-    <li>Item b</li>
-    <li>Item c</li>
-  </ul>
+            <label for="Name">location: </label>
+            <input type="text" name="location">
 
-  <script>
-    // Find Our <ul>
-    var stuffList = document.getElementById("stuff");
-    // Create a new List Item in the DOM
-    var newLi = document.createElement('li');
-    // Give it some text
-    newLi.textContent = "New List Item!";
-    // Add it to the end of the UL
-    stuffList.appendChild(newLi);
-    // Change the UL to have the "bald" class on it (turns it red)
-    newStuff.classList.add('bald');
-  </script>
+            <label for="max cust">max cust </label>
+            <input type="Integer" name="max cust">
 
-</body>
+            <label for="min cust">min cust </label>
+            <input type="Integer" name="min cust">
 
+            <button>new loactionForm</button>
+
+        </fieldset>
+
+    </form>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
