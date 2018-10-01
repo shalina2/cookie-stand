@@ -1,9 +1,16 @@
-section {
-    margin: 2em 1em;
+*{
+background-color:brown
+
+    
+}
+nav {
+    margin: 20px;
+    padding:25px;
+    color:yellow;
 }
 
 
-label {
+table {
     display: block;
 
 }
@@ -11,8 +18,9 @@ label {
 label input {
     display: block;
 }
-input {
-    width: 3em
+a {
+    display: inline;
+    padding:6px;
 }
 
 display {
