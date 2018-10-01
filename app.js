@@ -1,11 +1,10 @@
 'use strict';
 
 var hours = [' ','6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm','8pm'];
-// var thead = document.getElementsByTagName('thead')[0];
-// var tbody = document.getElementsByTagName('tbody')[0];
-// var tfoot = document.getElementsByTagName('tfoot')[0];
+var th = document.getElementsByTagName('thead')[0];
+var tb = document.getElementsByTagName('tbody')[0];
+var tf = document.getElementsByTagName('tfoot')[0];
 var addForm = document.getElementById('add-location');
-var salesForm = document.getElementById('sales-data');
 var trEl = document.getElementById('tr');
 
 
@@ -88,6 +87,6 @@ header();
 renderstores();
  }
  storeForm.addEventListener('submit',Newstore);
-
+}
 
 
